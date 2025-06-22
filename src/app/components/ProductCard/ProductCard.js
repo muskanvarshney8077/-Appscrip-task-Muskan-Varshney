@@ -11,11 +11,13 @@ const ProductCard = ({ id, header, isoutofstock, img, title, like }) => {
   return (
     <div className="ProductMain">
       <div className="imageContainer">
-        <Image src={img} alt="" width={200} height={200} />
+        <img src={img} alt="" style={{ width: "100%", height: "100%" }} />
       </div>
       <div className="Title">{title}</div>
       <div className="bottomSection">
-        <div>Sign in or Create an account to see pricing</div>
+        <div className="Signin">
+          Sign in or Create an account to see pricing
+        </div>
         <Image
           src={like ? Heart : EmptyHeart}
           alt="heart"

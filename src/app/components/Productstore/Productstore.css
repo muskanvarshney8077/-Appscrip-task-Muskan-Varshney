@@ -1,7 +1,7 @@
 .productStoreMainDiv {
   width: 100%;
   display: flex;
-  gap: 2rem;
+  gap: 2%;
 }
 .sidebarDiv {
   width: 20%;
@@ -15,9 +15,9 @@
 }
 .container {
   display: grid;
-  column-gap: 1rem;
-  row-gap: 1rem;
-  gap: 1rem;
+  /* column-gap: 2vw; */
+  /* row-gap: 1rem; */
+  /* gap: 1rem; */
 }
 .fullcontainer {
   grid-template-columns: 1fr 1fr 1fr 1fr;

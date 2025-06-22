@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  cursor: pointer;
 }
 .totalItem {
   font-size: 1.125rem;
