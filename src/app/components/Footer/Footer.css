@@ -1,0 +1,91 @@
+.footerMain {
+  background-color: black;
+  color: white;
+  padding: 4rem 5rem;
+}
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+}
+.BoldClass {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.hr {
+  margin: 2rem 0px;
+}
+.summary {
+  color: #e5e5e5;
+}
+.inputBox input[type="text"] {
+  width: 384px;
+  height: 47px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #e5e5e5;
+}
+.inputBox button {
+  width: 184px;
+  height: 46px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #e5e5e5;
+  color: #ccc;
+  background-color: black;
+}
+.firstPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+}
+.inputBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.Usa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.bottomPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.bottomPart1 {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+.icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.followUs {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+  color: #e5e5e5;
+  margin-top: 2rem;
+}
+.small {
+  color: #e5e5e5;
+  font-size: 0.5rem;
+}

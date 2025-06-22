@@ -1,0 +1,27 @@
+.productStoreMainDiv {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+.sidebarDiv {
+  width: 20%;
+}
+
+.fulllength {
+  width: 100%;
+}
+.partiallength {
+  width: 80%;
+}
+.container {
+  display: grid;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  gap: 1rem;
+}
+.fullcontainer {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.partialcontainer {
+  grid-template-columns: 1fr 1fr 1fr;
+}

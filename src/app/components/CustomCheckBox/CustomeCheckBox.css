@@ -1,0 +1,45 @@
+.fontControl {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.5rem 0px;
+  cursor: pointer;
+}
+.rotateFilterDown {
+  transform: rotate(180deg);
+}
+.unselect {
+  margin: 0.5rem 0px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #888792;
+}
+.checkboxData {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.checkLabel {
+  font-weight: 400;
+  cursor: pointer;
+}
+.hr {
+  border: none;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin: 1rem 0;
+}
+.dataCheckbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+}

@@ -1,0 +1,34 @@
+.TopHeader {
+  color: red;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  height: 2rem;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.TopHeaderTextAlign {
+  display: flex;
+  gap: 1px;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  font-family: "Simplon Norm";
+  font-weight: 400;
+}
+/* mobile view */
+@media screen and (max-width: 450px) {
+  .TopHeader {
+    width: 100vw;
+    height: 2vh;
+    justify-content: center;
+  }
+  .TopHeaderTextAlign {
+    font-size: 0.75rem;
+  }
+  .TopHeaderTextAlign:nth-child(odd) {
+    display: none;
+  }
+}

@@ -1,0 +1,39 @@
+.filterDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0px;
+}
+.showHideFilter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.totalItem {
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: "Simplon Norm";
+}
+.showHideFilter span:nth-child(2) {
+  text-decoration: underline;
+}
+select {
+  border: none;
+  outline: none;
+}
+.show {
+  transform: rotate(180deg);
+}
+
+.selectFiletr {
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: "Simplon Norm";
+  text-align: right;
+}
+.filter {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #888792;
+}

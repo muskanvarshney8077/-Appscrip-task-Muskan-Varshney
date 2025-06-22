@@ -1,0 +1,24 @@
+.customizable {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.customizable input[type="checkbox"] {
+  transform: scale(1.5);
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.customizable input[type="checkbox"] {
+  accent-color: #888792;
+}
+
+label {
+  margin-left: 8px;
+  font-size: 1.125rem;
+  font-family: "Simplon Norm";
+  font-weight: 700;
+}
