@@ -10,8 +10,9 @@ const ProductCard = ({ id, header, isoutofstock, img, title, like }) => {
 
   return (
     <div className="ProductMain">
-      <div>{header}</div>
-      <Image src={img} alt="" className="image" width={300} height={350} />
+      <div className="imageContainer">
+        <Image src={img} alt="" width={200} height={200} />
+      </div>
       <div className="Title">{title}</div>
       <div className="bottomSection">
         <div>Sign in or Create an account to see pricing</div>

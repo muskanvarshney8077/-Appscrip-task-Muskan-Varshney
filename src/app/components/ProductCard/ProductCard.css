@@ -4,18 +4,33 @@
   align-items: flex-start;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  height: 70vh;
+
   margin: 0px;
+  gap: 1rem;
   padding: 1rem;
   background-color: rgba(229, 229, 229, 0.5);
 }
+.imageContainer {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  height: 70%;
+}
 .bottomSection {
+  height: 15%;
+  /* position: relative; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
 .Title {
+  height: 15%;
+  /* position: relative; */
   font-weight: 700;
   font-family: "Simplon Norm";
   font-size: 1.125rem;
